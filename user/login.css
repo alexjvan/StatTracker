@@ -1,0 +1,123 @@
+#container {
+    width: 100%;
+}
+    #outsidewindow {
+        background-image: url(../assets/images/backgrounds/white-abstract.png);
+        background-size: cover;
+        height: 500px;
+        padding-bottom: 20%;
+        position: relative;
+        text-align: center;
+        width: 100%;
+    }
+        #window {
+            background-color: #e4e4e4;
+            box-shadow: #b4b4b4 5px 5px 5px 5px;
+            height: 500px;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            position: relative;
+            vertical-align: middle;
+            width: 80%;
+        }
+            #isLoggedIn {
+                width: 100%;
+                vertical-align: center;
+            }
+                #ili-text {
+                    color: black;
+                    font-style: italic;
+                    font-weight: bold;
+                }
+            #newacc {
+                padding-top: 2%;
+                padding-bottom: 5%;
+            }
+                #na-title {
+                    padding-bottom: 5px;
+                }
+                #na-form {
+                    padding-left: 25%;
+                    padding-right: 25%;
+                    width: 50%;
+                }
+                    #username {
+                        display: block;
+                        float: left;
+                        text-align: left;
+                    }
+                        #username div {
+                            padding: 2px;
+                            text-align: left;
+                            width: 100%;
+                        }
+                        #username input {
+                            border-width: 0px;
+                            background-color: #e4e4e4;
+                            border-bottom: 2px solid #b4b4b4;
+                            margin: 2px;
+                            margin-bottom: 5px;
+                        }
+                            #username input:focus {
+                                border: 0px;
+                                border-bottom: 2px solid var(--accents);
+                                outline: none;
+                            }
+                    #password {
+                        display: block;
+                        float: left;
+                        text-align: left;
+                    }
+                        #password div {
+                            padding: 2px;
+                            text-align: left;
+                            width: 100%;
+                        }
+                        #password input {
+                            border-width: 0px;
+                            background-color: #e4e4e4;
+                            border-bottom: 2px solid #b4b4b4;
+                            margin: 2px;
+                            margin-bottom: 5px;
+                        }
+                            #password input:focus {
+                                border: 0px;
+                                border-bottom: 2px solid var(--accents);
+                                outline: none;
+                            }
+                    #email {
+                        display: block;
+                        float: left;
+                        margin-bottom: 10px;
+                        text-align: left;
+                    }
+                        #email div {
+                            padding: 2px;
+                            text-align: left;
+                            width: 100%;
+                        }
+                        #email input {
+                            border-width: 0px;
+                            background-color: #e4e4e4;
+                            border-bottom: 2px solid #b4b4b4;
+                            margin: 2px;
+                            margin-bottom: 5px;
+                        }
+                            #email input:focus {
+                                border: 0px;
+                                border-bottom: 2px solid var(--accents);
+                                outline: none;
+                            }
+                    #submit {
+                        clear: both;
+                        display: block;
+                        margin: 10px;
+                        padding: 7px;
+                        text-align: center;
+                    }
+            #error {
+                color: red;
+                display: block;
+            }

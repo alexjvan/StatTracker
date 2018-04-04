@@ -1,0 +1,31 @@
+#left {
+	float: left;
+	width: 50%;
+}
+	#l-user {
+		margin: 5%;
+		margin-top: 0%;
+		width: 90%;
+	}
+	#l-badges {
+
+	}
+#right {
+	float: right;
+	width: 50%;
+}
+	#r-table {
+		border-top: 1px solid black;
+		border-bottom: 1px solid black;
+		margin: 5%;
+		margin-top: 0%;
+		width: 90%;
+	}
+		.r-t-row {
+
+		}
+	#badges {
+		margin: 5%;
+		margin-top: 0%;
+		width: 90%;
+	}

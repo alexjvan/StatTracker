@@ -1,0 +1,172 @@
+/* Color Palette */
+:root {
+    --background: #545454;
+    --background2: #e4e4e4;
+    --accents: #68a2ff;
+    --accents-hover: #0d6aff;
+	--accents2: #dc5555;
+	--accents2-hover: #a02525;
+}
+
+/* Overall Styles */
+button:hover {
+    cursor: pointer;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	color: var(--text);
+	display: block;
+	text-decoration: none;
+}
+
+body {
+	border: 0px;
+	font-family: 'Montserrat', verdana, arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+    overflow-x: hidden;
+	padding: 0px;
+}
+
+div {
+	display: inline-block;
+}
+
+li {
+	display: inline-block;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+p {
+	text-align: left;
+}
+
+ul {
+	display: block;
+	list-style-type: none;
+}
+
+.disabled {
+	display: none;
+	height: 0px;
+	line-height: 0px;
+}
+/* Specific Styles */
+#spacer {
+	height: 60px;
+	width: 100%;
+}
+header {
+	background-color: #242424;
+	height: 60px;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: fixed;
+	width: 80%;
+	z-index: 100;
+}
+	#h-logo {
+
+	}
+	#h-items {
+		height: 60px;
+	}
+		.h-i-item {
+			height: 60px;
+		}
+			.h-i-i-button {
+				padding-top: 20.4px;
+				padding-left: 15px;
+				padding-right: 15px;
+				padding-bottom: 20.4px;
+				vertical-align: middle;
+			}
+				.h-i-i-button:hover {
+					border-bottom: 5px solid #3399ff;
+					padding-bottom: 15.4px;
+				}
+				.h-i-i-b-text {
+					color: #e4e4e4;
+				}
+	#h-account {
+		float: right;
+		height: 60px;
+		position: relative;
+		top: -60px;
+	}
+		#h-a-user {
+
+		}
+			#h-a-u-username {
+
+			}
+				#h-a-u-u-button {
+					padding-top: 20.4px;
+					padding-left: 20px;
+					padding-right: 20px;
+					padding-bottom: 20.4px;
+				}
+					#h-a-u-u-button:hover {
+						background-color: #444;
+					}
+					#h-a-u-u-b-text {
+						color: white;
+					}
+		#h-a-u-logout {
+
+		}
+			#h-a-u-l-button {
+				padding-top: 20.4px;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-bottom: 20.4px;
+			}
+				#h-a-u-l-button:hover {
+					background-color: #444;
+				}
+				#h-a-u-l-b-text {
+					color: white;
+				}
+		#h-a-lic {
+			height: 60px;
+		}
+			#h-a-lic-login {
+				height: 60px;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+				#h-a-lic-l-button {
+					padding-top: 20.4px;
+					padding-left: 10px;
+					padding-right: 10px;
+					padding-bottom: 20.4px;
+				}
+					#h-a-lic-l-button:hover {
+						background-color: #444;
+					}
+					#h-a-lic-l-b-text {
+						color: #e4e4e4;
+					}
+			#h-a-lic-create {
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+				#h-a-lic-c-button {
+					padding-top: 20.4px;
+					padding-left: 10px;
+					padding-right: 10px;
+					padding-bottom: 20.4px;
+				}
+					#h-a-lic-c-button:hover {
+						background-color: #444;
+					}
+					#h-a-lic-c-b-text {
+						color: #e4e4e4;
+					}
