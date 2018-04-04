@@ -1,4 +1,4 @@
-# Current Folder walkthrough
+# Current Folder Walkthrough
 ## index.php
 ### Description
 This is the main home page.
